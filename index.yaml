@@ -20,4 +20,14 @@ entries:
     urls:
     - https://github.com/osmandagli/helm-charts/releases/download/app2-0.1.0/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-14T15:27:16.609756835+03:00"
+  tigera-operator:
+  - apiVersion: v2
+    appVersion: v3.26.3
+    created: "2023-10-14T17:40:33.436052028+03:00"
+    description: Installs the Tigera operator for Calico
+    digest: 0d8ecd622af59ba2c089bf7399ce4954fee5cd0347c00c7f1477f25407082dd0
+    name: tigera-operator
+    urls:
+    - https://github.com/osmandagli/helm-charts/releases/download/tigera-operator-v3.26.3/tigera-operator-v3.26.3.tgz
+    version: v3.26.3
+generated: "2023-10-14T17:40:33.43608521+03:00"
