@@ -48,6 +48,35 @@ entries:
     urls:
     - https://github.com/osmandagli/helm-charts/releases/download/ingress-nginx-4.8.2/ingress-nginx-4.8.2.tgz
     version: 4.8.2
+  nexus-repository-manager:
+  - apiVersion: v2
+    appVersion: 3.61.0
+    created: "2023-11-13T23:55:51.006922084+03:00"
+    description: Sonatype Nexus Repository Manager - Universal Binary repository
+    digest: 76de737bc855de6e2bc4843313fba44938fbace3421aae776edf185f14e2130a
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    maintainers:
+    - email: support@sonatype.com
+      name: Sonatype
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/sonatype/nexus-public
+    type: application
+    urls:
+    - https://github.com/osmandagli/helm-charts/releases/download/nexus-repository-manager-61.0.2/nexus-repository-manager-61.0.2.tgz
+    version: 61.0.2
   tigera-operator:
   - apiVersion: v2
     appVersion: v3.26.3
@@ -58,4 +87,4 @@ entries:
     urls:
     - https://github.com/osmandagli/helm-charts/releases/download/tigera-operator-v3.26.3/tigera-operator-v3.26.3.tgz
     version: v3.26.3
-generated: "2023-10-14T22:57:35.818299133+03:00"
+generated: "2023-11-13T23:55:51.006998085+03:00"
